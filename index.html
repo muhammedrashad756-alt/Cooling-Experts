@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AC Service Co. | Professional AC Services</title>
+  <meta name="description" content="Professional AC installation, repair, gas filling, and deep cleaning services. Trusted, reliable, and affordable. Book now!">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Keep the site styles last so they take precedence over Bootstrap defaults -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="site-header">
+    <div class="wrap nav">
+      <a href="#home" class="logo">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L21 7V17L12 22L3 17V7L12 2Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="3" stroke="white" stroke-width="1.6"/>
+          </svg>
+        </span>
+        <span class="logo-text">
+          AC Service Co.
+          <small>Cooling Experts</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#process">Process</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="tel:+918590961145" class="btn btn-outline">📞 Call Now</a>
+        <a href="#contact" class="btn btn-primary">Get a Quote</a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <div class="hero-badge">
+          <span>Trusted</span> Serving customers since 2018
+        </div>
+
+        <h1>Expert AC service, <em>cooling done right.</em></h1>
+
+        <p>
+          Installation, repair, gas filling, and deep cleaning for all AC brands.
+          Certified technicians, transparent pricing, and doorstep service within 24 hours.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get a Free Quote →</a>
+          <a href="#services" class="btn btn-outline">View Services</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>1,200+</strong>
+            <span>ACs Serviced</span>
+          </div>
+          <div>
+            <strong>4.8★</strong>
+            <span>Google Rating</span>
+          </div>
+          <div>
+            <strong>24hr</strong>
+            <span>Doorstep Service</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-card">
+          <h3>Why customers choose us</h3>
+          <p>Simple promises. Kept every single time.</p>
+          <ul class="mini-list">
+            <li><span class="tick">✓</span> On-time arrival, guaranteed</li>
+            <li><span class="tick">✓</span> Upfront pricing — no surprises</li>
+            <li><span class="tick">✓</span> Certified &amp; background-checked technicians</li>
+            <li><span class="tick">✓</span> 30-day workmanship warranty</li>
+          </ul>
+        </div>
+
+        <div class="float-badge">
+          <span class="dot"></span>
+          Available today — book now
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="section services" id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our AC Services</span>
+        <h2>Professional AC solutions for your home &amp; office</h2>
+        <p>Installation, repair, gas filling, deep cleaning — all at transparent prices. Tap <strong>Book Now</strong> to see full details.</p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- ===== 1. AC Installation ===== -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card product-card h-100 reveal">
+            <img src="https://picsum.photos/seed/acinstall/600/400" class="card-img-top" alt="AC Installation">
+            <div class="card-body d-flex flex-column">
+              <div class="rating mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <span class="text-muted ms-1">4.9 (312)</span>
+              </div>
+              <h5 class="card-title">AC Installation</h5>
+              <p class="card-text text-muted small">Split AC installation — indoor + outdoor unit, copper piping, and testing.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+                <div>
+                  <span class="price fw-bold">₹1,499</span>
+                  <span class="old-price text-muted text-decoration-line-through small ms-1">₹1,999</span>
+                </div>
+                <button class="btn btn-amazon"
+                  data-bs-toggle="modal"
+                  data-bs-target="#productModal"
+                  data-title="AC Installation"
+                  data-price="₹1,499"
+                  data-old="₹1,999"
+                  data-img="https://picsum.photos/seed/acinstall/600/400"
+                  data-desc="Complete split AC installation — indoor unit, outdoor unit, wall mounting, copper pipe connection, drainage setup, and full cooling test. Standard copper piping up to 3 metres included. Extra piping charged at ₹450/metre. Approximately 2-3 hours."
+                  data-rating="4.9"
+                  data-reviews="312">
+                  <i class="bi bi-cart-fill"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== 2. AC Service & Repair ===== -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card product-card h-100 reveal">
+            <img src="https://picsum.photos/seed/acrepair/600/400" class="card-img-top" alt="AC Service">
+            <div class="card-body d-flex flex-column">
+              <div class="rating mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                <span class="text-muted ms-1">4.8 (487)</span>
+              </div>
+              <h5 class="card-title">AC Service &amp; Repair</h5>
+              <p class="card-text text-muted small">Full service — filter cleaning, coil wash, and cooling check-up.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+                <div>
+                  <span class="price fw-bold">₹499</span>
+                  <span class="old-price text-muted text-decoration-line-through small ms-1">₹799</span>
+                </div>
+                <button class="btn btn-amazon"
+                  data-bs-toggle="modal"
+                  data-bs-target="#productModal"
+                  data-title="AC Service &amp; Repair"
+                  data-price="₹499"
+                  data-old="₹799"
+                  data-img="https://picsum.photos/seed/acrepair/600/400"
+                  data-desc="Full AC servicing — filter cleaning, evaporator coil wash, condenser cleaning, drainage check, electrical connections inspection, and cooling performance test. Recommended every 6 months. Major repairs (compressor, PCB) quoted separately after inspection."
+                  data-rating="4.8"
+                  data-reviews="487">
+                  <i class="bi bi-cart-fill"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== 3. Gas Filling ===== -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card product-card h-100 reveal">
+            <img src="https://picsum.photos/seed/acgas/600/400" class="card-img-top" alt="AC Gas Filling">
+            <div class="card-body d-flex flex-column">
+              <div class="rating mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                <span class="text-muted ms-1">4.7 (156)</span>
+              </div>
+              <h5 class="card-title">Gas Filling &amp; Top-up</h5>
+              <p class="card-text text-muted small">R32 / R410A / R22 gas refilling with leak detection.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+                <div>
+                  <span class="price fw-bold">₹2,499</span>
+                  <span class="old-price text-muted text-decoration-line-through small ms-1">₹3,299</span>
+                </div>
+                <button class="btn btn-amazon"
+                  data-bs-toggle="modal"
+                  data-bs-target="#productModal"
+                  data-title="Gas Filling &amp; Top-up"
+                  data-price="₹2,499"
+                  data-old="₹3,299"
+                  data-img="https://picsum.photos/seed/acgas/600/400"
+                  data-desc="Full gas refilling for split ACs. Includes leak detection, vacuuming, and refilling with R32 / R410A / R22 (based on your unit). Price covers up to 1-ton capacity. Larger units and extra gas charged per kg. Comes with a 30-day leak guarantee."
+                  data-rating="4.7"
+                  data-reviews="156">
+                  <i class="bi bi-cart-fill"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== 4. Deep Cleaning (Jet Wash) ===== -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card product-card h-100 reveal">
+            <img src="https://picsum.photos/seed/acclean/600/400" class="card-img-top" alt="AC Deep Cleaning">
+            <div class="card-body d-flex flex-column">
+              <div class="rating mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <span class="text-muted ms-1">4.9 (203)</span>
+              </div>
+              <h5 class="card-title">Deep Cleaning (Jet Wash)</h5>
+              <p class="card-text text-muted small">High-pressure jet wash — removes dust, mold &amp; bacteria from coils.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+                <div>
+                  <span class="price fw-bold">₹899</span>
+                  <span class="old-price text-muted text-decoration-line-through small ms-1">₹1,299</span>
+                </div>
+                <button class="btn btn-amazon"
+                  data-bs-toggle="modal"
+                  data-bs-target="#productModal"
+                  data-title="AC Deep Cleaning (Jet Wash)"
+                  data-price="₹899"
+                  data-old="₹1,299"
+                  data-img="https://picsum.photos/seed/acclean/600/400"
+                  data-desc="Complete deep cleaning with high-pressure jet wash — indoor coil, outdoor unit, filters, blower, and drainage tray. Removes mold, bacteria, and dust buildup. Highly recommended for allergy relief and better cooling efficiency. Takes 1.5-2 hours per unit."
+                  data-rating="4.9"
+                  data-reviews="203">
+                  <i class="bi bi-cart-fill"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== 5. Uninstall / Relocation ===== -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card product-card h-100 reveal">
+            <img src="https://picsum.photos/seed/acmove/600/400" class="card-img-top" alt="AC Uninstall">
+            <div class="card-body d-flex flex-column">
+              <div class="rating mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                <span class="text-muted ms-1">4.6 (94)</span>
+              </div>
+              <h5 class="card-title">AC Uninstall &amp; Relocation</h5>
+              <p class="card-text text-muted small">Safe removal and re-installation when moving home or office.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+                <div>
+                  <span class="price fw-bold">₹1,299</span>
+                  <span class="old-price text-muted text-decoration-line-through small ms-1">₹1,799</span>
+                </div>
+                <button class="btn btn-amazon"
+                  data-bs-toggle="modal"
+                  data-bs-target="#productModal"
+                  data-title="AC Uninstall &amp; Relocation"
+                  data-price="₹1,299"
+                  data-old="₹1,799"
+                  data-img="https://picsum.photos/seed/acmove/600/400"
+                  data-desc="Professional uninstallation and re-installation when relocating. Includes gas recovery (saves your existing gas), pipe removal, and complete reinstallation at the new location. Price covers one-way move. Additional copper piping charged extra if needed."
+                  data-rating="4.6"
+                  data-reviews="94">
+                  <i class="bi bi-cart-fill"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== 6. AMC (Annual Maintenance) ===== -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card product-card h-100 reveal">
+            <img src="https://picsum.photos/seed/acamc/600/400" class="card-img-top" alt="AC AMC">
+            <div class="card-body d-flex flex-column">
+              <div class="rating mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <span class="text-muted ms-1">5.0 (67)</span>
+              </div>
+              <h5 class="card-title">Annual Maintenance (AMC)</h5>
+              <p class="card-text text-muted small">Yearly contract — 3 free services + priority repairs at discount.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center pt-3">
+                <div>
+                  <span class="price fw-bold">₹2,999/yr</span>
+                  <span class="old-price text-muted text-decoration-line-through small ms-1">₹4,499</span>
+                </div>
+                <button class="btn btn-amazon"
+                  data-bs-toggle="modal"
+                  data-bs-target="#productModal"
+                  data-title="Annual Maintenance Contract (AMC)"
+                  data-price="₹2,999/yr"
+                  data-old="₹4,499"
+                  data-img="https://picsum.photos/seed/acamc/600/400"
+                  data-desc="12-month AMC for one AC unit — includes 3 scheduled services (every 4 months), unlimited breakdown visits, priority response within 24 hours, and 20% discount on spare parts. Gas top-up and major repairs quoted separately. Perfect for worry-free cooling all year."
+                  data-rating="5.0"
+                  data-reviews="67">
+                  <i class="bi bi-cart-fill"></i> Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY US ========== -->
+  <section class="section why" id="why">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why us</span>
+        <h2>What makes us different</h2>
+        <p>We focus on the things that actually matter to customers.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-item reveal">
+          <div class="num">01</div>
+          <h3>On-Time</h3>
+          <p>We respect your schedule and arrive when we say we will.</p>
+        </div>
+        <div class="why-item reveal">
+          <div class="num">02</div>
+          <h3>Fair Pricing</h3>
+          <p>Clear quotes before work starts. No hidden charges.</p>
+        </div>
+        <div class="why-item reveal">
+          <div class="num">03</div>
+          <h3>Certified Techs</h3>
+          <p>Trained &amp; background-checked AC technicians.</p>
+        </div>
+        <div class="why-item reveal">
+          <div class="num">04</div>
+          <h3>Warranty</h3>
+          <p>30-day workmanship warranty on every job.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS ========== -->
+  <section class="section process" id="process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">How it works</span>
+        <h2>Simple process, from start to finish</h2>
+        <p>Four easy steps — no confusion, no delays.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="step reveal">
+          <h3>Tell us what you need</h3>
+          <p>Call, WhatsApp, or fill the form. We'll ask a few quick questions.</p>
+        </div>
+        <div class="step reveal">
+          <h3>Get a clear quote</h3>
+          <p>We send a fixed price and timeline — no hidden costs.</p>
+        </div>
+        <div class="step reveal">
+          <h3>We do the work</h3>
+          <p>Our technician arrives on time and completes the job as agreed.</p>
+        </div>
+        <div class="step reveal">
+          <h3>You approve</h3>
+          <p>We walk you through the finished work. Pay only when happy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Reviews</span>
+        <h2>What our customers say</h2>
+        <p>Real feedback from real customers.</p>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <blockquote>
+            "They installed my new split AC within 2 hours. Clean work, fair price, and explained everything clearly."
+          </blockquote>
+          <div class="testi-person">
+            <div class="avatar">RK</div>
+            <div>
+              <strong>Rahul K.</strong>
+              <span>Kochi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <blockquote>
+            "My AC wasn't cooling — they came same day, found a gas leak, fixed it, and refilled. Very professional team."
+          </blockquote>
+          <div class="testi-person">
+            <div class="avatar">AM</div>
+            <div>
+              <strong>Anjali M.</strong>
+              <span>Ernakulam</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <blockquote>
+            "Quick WhatsApp response, transparent pricing, and the deep cleaning made a huge difference. Will use again."
+          </blockquote>
+          <div class="testi-person">
+            <div class="avatar">SP</div>
+            <div>
+              <strong>Sreejith P.</strong>
+              <span>Thrissur</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <div class="cta-band reveal">
+    <div>
+      <h2>Ready to get started?</h2>
+      <p>Get a free, no-obligation quote today. We usually respond within a few hours.</p>
+    </div>
+    <a href="#contact" class="btn btn-accent">Get My Free Quote →</a>
+  </div>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Contact</span>
+        <h2>Let's talk about your AC requirement</h2>
+        <p>Call, WhatsApp, or send the form — whichever is easiest for you.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="reveal">
+          <ul class="contact-info">
+            <li>
+              <div class="ico">📞</div>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+918590961145">+91 85909 61145</a>
+              </div>
+            </li>
+            <li>
+              <div class="ico">💬</div>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/918590961145" target="_blank">Chat on WhatsApp</a>
+              </div>
+            </li>
+            <li>
+              <div class="ico">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:hello@acservice.com">hello@acservice.com</a>
+              </div>
+            </li>
+            <li>
+              <div class="ico">📍</div>
+              <div>
+                <strong>Address</strong>
+                <p>Your full address,<br>City, State – PIN</p>
+              </div>
+            </li>
+            <li>
+              <div class="ico">🕒</div>
+              <div>
+                <strong>Hours</strong>
+                <p>Mon – Sat: 9:00 AM – 7:00 PM<br>Sunday: Closed</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-card reveal">
+          <h3>Request a free quote</h3>
+          <p>Fill this and we'll get back to you quickly.</p>
+
+          <form id="contact-form" action="#" method="POST" novalidate>
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 85909 61145" required>
+            </div>
+
+            <div class="field">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option>AC Installation</option>
+                <option>AC Service &amp; Repair</option>
+                <option>Gas Filling &amp; Top-up</option>
+                <option>Deep Cleaning (Jet Wash)</option>
+                <option>AC Uninstall &amp; Relocation</option>
+                <option>Annual Maintenance (AMC)</option>
+                <option>Other / Not sure</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" name="message" placeholder="Tell us what you need..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Request →</button>
+
+            <p id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section faq" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2>Common questions</h2>
+        <p>Quick answers before you book.</p>
+      </div>
+
+      <div class="faq-list reveal">
+        <details>
+          <summary>Which AC brands do you service?</summary>
+          <p>We service all major brands — Voltas, Daikin, LG, Samsung, Blue Star, Hitachi, Carrier, Panasonic, and more.</p>
+        </details>
+        <details>
+          <summary>How do I get a quote?</summary>
+          <p>Call us, WhatsApp us, or fill the contact form. We'll ask a few details and send a fixed price — usually within a few hours.</p>
+        </details>
+        <details>
+          <summary>Do you charge for visits or estimates?</summary>
+          <p>No. Initial estimates are free. You only pay for the work after you approve the quote.</p>
+        </details>
+        <details>
+          <summary>What areas do you serve?</summary>
+          <p>We serve [Your City] and nearby areas. Contact us with your location and we'll confirm availability.</p>
+        </details>
+        <details>
+          <summary>What if I'm not happy with the work?</summary>
+          <p>Tell us within 48 hours and we'll return to fix it at no extra cost. 30-day workmanship warranty on every job.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-mark">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L21 7V17L12 22L3 17V7L12 2Z" stroke="white" stroke-width="1.6" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="3" stroke="white" stroke-width="1.6"/>
+              </svg>
+            </span>
+            <span class="logo-text">
+              AC Service Co.
+              <small>Cooling Experts</small>
+            </span>
+          </div>
+          <p>Reliable AC service, transparent pricing, and certified technicians. Serving [Your City] and nearby areas.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">AC Installation</a>
+          <a href="#services">Service &amp; Repair</a>
+          <a href="#services">Gas Filling</a>
+          <a href="#services">Deep Cleaning</a>
+          <a href="#services">AMC Plans</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#why">Why Us</a>
+          <a href="#process">How It Works</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:+918590961145">+91 85909 61145</a>
+          <a href="mailto:hello@acservice.com">hello@acservice.com</a>
+          <p>Your address,<br>City, State – PIN</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 AC Service Co. All rights reserved.</p>
+        <p>Cooling done right.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== PRODUCT DETAILS MODAL ========== -->
+  <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Service</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4">
+            <div class="col-md-5">
+              <img id="modalImg" src="" alt="" class="img-fluid rounded shadow-sm w-100">
+            </div>
+            <div class="col-md-7">
+              <div id="modalRating" class="rating mb-3"></div>
+              <div class="mb-3">
+                <span id="modalPrice" class="fs-3 fw-bold text-success"></span>
+                <span id="modalOld" class="text-muted text-decoration-line-through ms-2"></span>
+              </div>
+              <p id="modalDesc" class="text-muted"></p>
+
+              <hr>
+
+              <p class="small text-muted mb-1"><i class="bi bi-check-circle-fill text-success"></i> Certified &amp; background-checked technicians</p>
+              <p class="small text-muted mb-1"><i class="bi bi-check-circle-fill text-success"></i> On-time arrival guaranteed</p>
+              <p class="small text-muted mb-0"><i class="bi bi-check-circle-fill text-success"></i> 30-day workmanship warranty</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-between">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-amazon" id="modalBuyBtn">
+            <i class="bi bi-whatsapp"></i> Order via WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (must load before script.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Our JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
